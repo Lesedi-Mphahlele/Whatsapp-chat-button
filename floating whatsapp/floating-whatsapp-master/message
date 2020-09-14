@@ -1,0 +1,12 @@
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone: '+27640515370',
+            popupMessage: 'Hello, how can we help you?',
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Welcome!',
+            headerColor: 'crimson',
+            backgroundColor: 'transparent',
+            buttonImage: '<img src="icons5-whatsapp.svg" />'
+        });
+    });
